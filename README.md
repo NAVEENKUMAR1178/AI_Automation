@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Daily AI Product Post -> WhatsApp Status (Round 1, Project 2)
 
 Every day at a set time, with zero manual input:
@@ -57,3 +58,6 @@ app/
   whatsapp.py  WAHA client (session check + status/image)
   products.py  product rotation
 ```
+=======
+# AI_Automation
+>>>>>>> 00dff181e280b906d27179059686b2ca9c94e6e2
