@@ -1,0 +1,16 @@
+[
+  {"name": "Wireless Over-Ear Headphones", "category": "Electronics", "description": "deep bass, 30 hour battery, matte black finish", "color": "deep indigo", "tags": ["headphones", "music", "wireless", "audio"]},
+  {"name": "Classic Leather Wrist Watch", "category": "Accessories", "description": "minimal analog dial with brown leather strap", "color": "warm beige", "tags": ["watch", "style", "accessories", "classic"]},
+  {"name": "Running Sneakers", "category": "Footwear", "description": "lightweight breathable mesh with cushioned sole", "color": "bright orange", "tags": ["sneakers", "running", "fitness", "shoes"]},
+  {"name": "Aviator Sunglasses", "category": "Accessories", "description": "polarized lenses with a slim gold metal frame", "color": "sky blue", "tags": ["sunglasses", "summer", "fashion", "eyewear"]},
+  {"name": "Mirrorless Camera", "category": "Electronics", "description": "24MP sensor, 4K video, compact body", "color": "soft grey", "tags": ["camera", "photography", "creator", "4k"]},
+  {"name": "Ultrabook Laptop", "category": "Electronics", "description": "14-inch thin and light, silver aluminium body", "color": "clean white", "tags": ["laptop", "work", "tech", "productivity"]},
+  {"name": "Smartphone Pro", "category": "Electronics", "description": "AMOLED display, triple camera, sleek glass back", "color": "dark teal", "tags": ["smartphone", "mobile", "5g", "gadgets"]},
+  {"name": "Travel Backpack", "category": "Fashion", "description": "water-resistant 30L with laptop sleeve, olive green", "color": "light sand", "tags": ["backpack", "travel", "adventure", "bags"]},
+  {"name": "Smart Fitness Band", "category": "Electronics", "description": "heart-rate tracking, sleep monitor, week-long battery", "color": "mint green", "tags": ["fitband", "health", "fitness", "wearable"]},
+  {"name": "Bluetooth Speaker", "category": "Electronics", "description": "portable waterproof speaker with 360 degree sound", "color": "coral", "tags": ["speaker", "music", "party", "portable"]},
+  {"name": "Ceramic Coffee Mug Set", "category": "Home", "description": "set of two handmade matte ceramic mugs", "color": "cream", "tags": ["coffee", "home", "kitchen", "decor"]},
+  {"name": "Table Lamp", "category": "Home", "description": "warm LED lamp with wooden base and linen shade", "color": "dusty rose", "tags": ["lamp", "homedecor", "cozy", "interior"]},
+  {"name": "Denim Jacket", "category": "Fashion", "description": "classic fit washed blue denim, button front", "color": "pale yellow", "tags": ["denim", "fashion", "ootd", "style"]},
+  {"name": "Leather Wallet", "category": "Accessories", "description": "slim bifold wallet in tan genuine leather", "color": "slate grey", "tags": ["wallet", "leather", "gift", "everyday"]}
+]

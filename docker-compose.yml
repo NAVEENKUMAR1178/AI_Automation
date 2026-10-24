@@ -1,0 +1,28 @@
+services:
+  waha:
+    image: devlikeapro/waha:latest
+    container_name: waha
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      WHATSAPP_API_KEY: ${WAHA_API_KEY}
+      WAHA_DASHBOARD_ENABLED: "true"
+      WAHA_DASHBOARD_USERNAME: admin
+      WAHA_DASHBOARD_PASSWORD: ${WAHA_API_KEY}
+      WHATSAPP_DEFAULT_ENGINE: NOWEB
+      WHATSAPP_START_SESSION: ${WAHA_SESSION:-default}
+    volumes:
+      - ./waha-data/sessions:/app/.sessions
+
+  automation:
+    build: .
+    container_name: daily-status-bot
+    restart: unless-stopped
+    depends_on:
+      - waha
+    env_file: .env
+    environment:
+      WAHA_BASE_URL: http://waha:3000
+    volumes:
+      - ./output:/app/output
